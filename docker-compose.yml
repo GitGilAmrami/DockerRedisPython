@@ -1,0 +1,8 @@
+version: '3'
+services:
+  websrvc:
+    build: .
+    ports:
+     - "7000:5000"
+  redis:
+    image: "redis:alpine"
